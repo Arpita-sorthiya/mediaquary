@@ -1,0 +1,124 @@
+.box{
+    height: 800px;
+    background-image: url(pic/1image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header{
+    height: 100px;
+    background-color: #14639391;
+  
+}.box1{
+    height: 300px;
+   
+    margin-top: 100px;
+    
+    
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    height: 45px;
+    border-radius: 0px;
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;   
+}
+.btn1{
+    color: white;
+    background-color: #3993cb91;
+    height: 45px;
+    
+    border-radius: 0px;
+    border:1px solid white;
+    margin-left: 20px;
+  
+}
+.btn1:hover{
+    color: black;
+    background-color: white;
+    
+}
+.box2{
+    height: 500px;
+    background-image: url(pic/15image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.cl{
+    color: black;
+}
+.cl:hover{
+    color: #0075be;
+}
+
+.h400{height: 400px;}
+
+@media(max-width:700px){
+.h400{height: 50px;}
+    
+}
+
+a{
+    text-decoration: none;
+
+    color: black;
+    font-weight: 400;
+
+}
+a:hover{
+    text-decoration: none;
+
+    color: #007dce;
+    font-weight: 400;
+
+}
+.btn2{
+
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+.btn2:hover{
+
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+}
+.about{
+
+    height: 600px;
+    background-image: url(pic/about1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.contact{
+    height: 450px;
+    background-image: url(pic/contact.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bs{
+    box-shadow: 0px 0px 4px 0px rgba(192, 192, 192, 0.528);
+}
+.bt{
+    color: white;
+    background-color: #0075be;
+    height: 40px;
+    border: none;
+}
